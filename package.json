@@ -1,9 +1,12 @@
 {
-  "name": "Elastic-Beanstalk-Sample-App",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {},
+  "name": "devops-labs",
+  "version": "1.0.0",
+  "description": "Node.js application for AWS CodePipeline and Elastic Beanstalk",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
